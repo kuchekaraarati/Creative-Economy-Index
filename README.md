@@ -3,6 +3,7 @@
 A small pilot composite indicator ranking 15 countries on creative-economy
 readiness, using World Bank data pulled through its API (Python, pandas).
 Data source: World Bank, World Development Indicators (API). Pulled on 24 Oct 2026.
+Dashboard: https://public.tableau.com/authoring/CreativeEconomyReadinessIndex/Sheet1#1
 
 ## Indicators
 | Indicator | World Bank code | Why |
