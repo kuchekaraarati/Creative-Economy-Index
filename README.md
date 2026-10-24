@@ -2,6 +2,7 @@
 
 A small pilot composite indicator ranking 15 countries on creative-economy
 readiness, using World Bank data pulled through its API (Python, pandas).
+Data source: World Bank, World Development Indicators (API). Pulled on 24 Oct 2026.
 
 ## Indicators
 | Indicator | World Bank code | Why |
@@ -17,6 +18,10 @@ readiness, using World Bank data pulled through its API (Python, pandas).
 3. Min-max scale each indicator to 0-100.
 4. Average the available scores with equal weights; rank countries.
 
+## Results
+Top 3: South Korea (72.5), United States (69.0), Germany (65.1).
+Bottom 3: Egypt (21.9), Kenya (9.4), Nigeria (5.0, based on 2 of 4 indicators).
+
 ## Data audit and limitations
 - Nigeria has no R&D or IP receipts values; its score uses 2 of 4 indicators.
 - Data years differ by country (e.g. India's R&D is from 2020).
@@ -24,10 +29,16 @@ readiness, using World Bank data pulled through its API (Python, pandas).
 - India's ICT exports (48.6%) is an outlier that raises its rank.
 - Equal weights are a simplifying choice, not a tested one.
 - Pilot only: not a substitute for official creative-economy measurement.
+- - The indicators are proxies: IP receipts cover all intellectual property
+  (patents and software as well as copyright), and ICT exports are not
+  creative-specific, so this measures broad readiness, not creative output.
+- The 15 countries were chosen for convenience and are not a representative sample.
 
 ## Files
 - creative_economy_table.csv: raw values and data years
 - creative_economy_index.csv: scores and ranks
 - notebook.ipynb: full code
+
 ## Reproduce
-Run the notebook in Google Colab; no setup needed.
+Open the notebook in Google Colab and run all cells from top to bottom
+(Runtime > Run all). No setup needed.
