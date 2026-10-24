@@ -38,6 +38,7 @@ Bottom 3: Egypt (21.9), Kenya (9.4), Nigeria (5.0, based on 2 of 4 indicators).
 - creative_economy_table.csv: raw values and data years
 - creative_economy_index.csv: scores and ranks
 - creative_economy_index.ipynb: full code
+- Final CSVs are also stored in cloud object storage (S3-compatible, Filebase).
 
 ## Reproduce
 Open the notebook in Google Colab and run all cells from top to bottom
