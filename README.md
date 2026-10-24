@@ -37,7 +37,7 @@ Bottom 3: Egypt (21.9), Kenya (9.4), Nigeria (5.0, based on 2 of 4 indicators).
 ## Files
 - creative_economy_table.csv: raw values and data years
 - creative_economy_index.csv: scores and ranks
-- notebook.ipynb: full code
+- creative_economy_index.ipynb: full code
 
 ## Reproduce
 Open the notebook in Google Colab and run all cells from top to bottom
